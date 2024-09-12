@@ -4,6 +4,8 @@
     position: fixed;
     top: 0px;
     border-bottom: 0.1rem solid navy;
+    z-index: 1;
+    background-color: white;
 }
 
 .options {
