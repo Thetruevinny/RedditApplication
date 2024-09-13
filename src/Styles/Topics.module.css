@@ -1,0 +1,25 @@
+.normalButton {
+    border-radius: 0.5rem;
+    background-color: white;
+    font-weight: normal;
+    margin: 0 1rem;
+    text-align: center;
+    padding-bottom: 0.5rem;
+}
+
+.selectedButton {
+    border-radius: 0.5rem;
+    background-color: gray;
+    color: white;
+    margin: 0 1rem;
+    padding-bottom: 0.5rem;
+}
+
+.emojis {
+    flex: 1;
+    width: 50;
+    height: 1rem;
+    resizeMode: 'contain';
+    margin-right: 0.5rem;
+    margin-top: 0.3rem;
+}

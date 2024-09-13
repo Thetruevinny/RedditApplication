@@ -1,0 +1,35 @@
+.header {
+    display: inline-flex;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    border-bottom: 0.1rem solid navy;
+    z-index: 1;
+    background-color: white;
+}
+
+.options {
+    width: 3%;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: white;
+    color: blue;
+}
+
+.title {
+    width: 95%;
+    justify-content: center;
+    text-align: center;
+    color: navy;
+}
+
+@media screen and (max-width: 450px) {
+    .options {
+        width: 10%;
+    }
+
+    .title {
+        width: 90%;
+    }
+}
