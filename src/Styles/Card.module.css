@@ -1,3 +1,4 @@
+/* Overall Comment Card */
 .comment {
     width: 90%;
     display: inline-flex;
@@ -7,7 +8,7 @@
     border-radius: 1rem;
     height: auto;
 }
-
+/* Votes Styling */
 .votes {
     width: 10%;
     padding-left: 0.5rem;
@@ -20,8 +21,13 @@
     resizeMode: 'contain';
     margin-right: 0.5rem;
     margin-top: 0.3rem;
+    margin-left: 0.2rem;
 }
 
+.up {
+    transform: rotate(180deg);
+}
+/* Comment content Styling */
 .content {
     width: 90%;
     display: flex;
@@ -42,7 +48,7 @@
 .content p {
     font-weight: bolder;
 }
-
+/* Post Details Styling */
 .info {
     display: inline-flex;
     justify-content: space-between;
